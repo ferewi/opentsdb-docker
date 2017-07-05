@@ -1,5 +1,7 @@
 FROM janeczku/alpine-kubernetes:3.2
 
+MAINTAINER Ferdinand Rewicki <ferdi@glasspod.de>
+
 RUN apk --update add \
     rsyslog \
     bash \
